@@ -1,0 +1,146 @@
+@media (max-width: 768px) {
+  .logo {
+    margin-left: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    background-color: #072243;
+    display: none;
+    padding: 20px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 5%;
+  }
+
+  .banner .textos {
+    max-width: 100%;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .banner img {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+
+  .sobre {
+    height: 70vh;
+    padding: 40px 5%;
+    text-align: center;
+  }
+
+  .sobre-conteudo {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .sobre-conteudo img {
+    display: none;
+  }
+
+  .texto h2 {
+    font-size: 36px;
+  }
+
+  .texto p {
+    font-size: 20px;
+  }
+
+  .dif {
+    flex-direction: column;
+  }
+
+  .diferenciais-border {
+    width: 90%;
+    height: auto;
+    padding: 30px 0;
+  }
+
+  .diferenciais button {
+    width: 90%;
+    font-size: 20px;
+  }
+
+  .diferenciais .card {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .diferenciais .card img {
+    margin-bottom: 10px;
+  }
+
+.diferenciais .card{
+  width: 200px;
+}
+  .lista-noticias {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudo-noticia h4 {
+    font-size: 24px;
+  }
+
+  .conteudo-noticia p {
+    font-size: 16px;
+  }
+
+  .conteudo-noticia button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .ver-todas {
+    width: 90%;
+  }
+
+  .aro-news-form {
+    height: auto;
+    padding: 40px 5%;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-unidades button {
+    width: 100%;
+  }
+
+  .footer-endereco p {
+    font-size: 13px;
+  }
+
+  .footer-bottom img {
+    max-width: 100%;
+  }
+
+  .footer-social {
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .footer-mapa iframe {
+    height: 200px;
+  }
+}
+
